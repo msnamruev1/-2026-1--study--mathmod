@@ -4,8 +4,12 @@ project:
 
 standalone: true
 self-contained: true
+engine: julia
+julia:
+  exeflags: ["--project=../project"]
 
-## Julia support
+
+# # Julia support
 # engine: julia
 # julia:
 #   exeflags: ["--project=../project"]
